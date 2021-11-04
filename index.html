@@ -83,21 +83,21 @@
 
             <div class="customer_info_wrapper login_block">
               <img class="customer_block_icon login_icon" src="" alt="Login icon" />
-              <a href="" class="customer_block_caption">Войти</a>
+              <a href="" class="customer_block_caption busket_caption">Войти</a>
             </div>
             <div class="customer_info_wrapper selected_block">
               <img class="customer_block_icon selected_icon" src="" alt="Selected icon" />
-              <a href="" class="customer_block_caption">Избранное</a>
+              <a href="" class="customer_block_caption busket_caption">Избранное</a>
             </div>
 
             <div class="customer_info_wrapper busket_block">
               <img class="customer_block_icon busket_icon" src="" alt="Busket icon" />
-              <a href="" class="customer_block_caption">В корзине нет товаров</a>
+              <a href="" class="customer_block_caption busket_caption">В корзине нет товаров</a>
             </div>
           </section>
         </div>
         <div class="action_wrapper">
-          <div class="action_product_slider">
+          <div class="action_group_slider">
             <div class="arrow prev"></div>
             <div class="arrow next"></div>
             <img class="slider_product_image" src="" alt="Product image" />
@@ -117,8 +117,8 @@
               <span class="action_product_sale">18 550,99 ₽ </span>
             </div>
 
-            <a href="" class="action_busket">
-              <img class="action_busket_icon" src="" alt="Action busket icon" />
+            <a href="" class="action_busket busket_button">
+              <img class="action_busket_icon busket_icon" src="" alt="Action busket icon" />
               <span>В корзину</span>
             </a>
           </div>
@@ -160,46 +160,328 @@
           </div>
         </div>
 
-        <div class="product_slider_wrapper">
-          <div class="product_slider_arrow left">
+        <div class="group_slider_wrapper">
+          <div class="group_slider_arrow left">
             <div></div>
           </div>
-          <div class="product_slider_arrow right">
+          <div class="group_slider_arrow right">
             <div></div>
           </div>
 
-          <div class="product_slider_block">
-            <div class="product_slider_group">
-              <span class="product_slider_group_name"> Масла </span>
-              <span class="product_slider_description">Трансмиссионное масло; присалка в масло акпп</span>
-              <a href="" class="product_slider_open">Перейти</a>
+          <div class="group_slider_wrapper">
+            <div class="group_slider_block">
+              <span class="group_slider_block_name"> Масла </span>
+              <span class="group_slider_description">Трансмиссионное масло; присалка в масло акпп</span>
+              <a href="" class="group_slider_open">Перейти</a>
             </div>
 
-            <img class="product_slider_icon" src="" alt="Product image" />
+            <img class="group_slider_icon" src="" alt="Product image" />
           </div>
 
-          <div class="product_slider_block">
-            <div class="product_slider_group">
-              <span class="product_slider_group_name"> Фильтры </span>
-              <span class="product_slider_description">Масляный фильтр; фильтр воздушный</span>
-              <a href="" class="product_slider_open">Перейти</a>
+          <div class="group_slider_wrapper">
+            <div class="group_slider_block">
+              <span class="group_slider_block_name"> Фильтры </span>
+              <span class="group_slider_description">Масляный фильтр; фильтр воздушный</span>
+              <a href="" class="group_slider_open">Перейти</a>
             </div>
 
-            <img class="product_slider_icon" src="" alt="Product image" />
+            <img class="group_slider_icon" src="" alt="Product image" />
           </div>
 
-          <div class="product_slider_block">
-            <div class="product_slider_group">
-              <span class="product_slider_group_name"> Радиаторы </span>
-              <span class="product_slider_description">Дополнительные радиаторы</span>
-              <a href="" class="product_slider_open">Перейти</a>
+          <div class="group_slider_wrapper">
+            <div class="group_slider_block">
+              <span class="group_slider_block_name"> Радиаторы </span>
+              <span class="group_slider_description">Дополнительные радиаторы</span>
+              <a href="" class="group_slider_open">Перейти</a>
             </div>
 
-            <img class="product_slider_icon" src="" alt="Product image" />
+            <img class="group_slider_icon" src="" alt="Product image" />
           </div>
         </div>
 
-        <div class="product_wrapper"></div>
+        <div class="product_wrapper">
+          <div class="product_filter_section">
+            <a href="" class="product_filter_block">Подборки товаров</a>
+            <a href="" class="product_filter_block">Акции</a>
+            <a href="" class="product_filter_block">Сейчас покупают</a>
+          </div>
+
+          <div class="product_list">
+            <div class="product_section">
+              <div class="product_icon_block">
+                <img src="" alt="Product image" />
+                <span class="product_sale_percent"></span>
+              </div>
+
+              <div class="product_info_block">
+                <div class="product_reviews_section">
+                  <img src="product_star" alt="Product star image" />
+                  <span class="product_rating">4.5</span>
+                  <a href="" class="product_review_number">10 отзывов</a>
+                </div>
+                <span class="product_name">Intermediate accumelator sleeve</span>
+              </div>
+
+              <div class="product_action_block">
+                <div class="procuct_price_section">
+                  <span class="product_price_caption">ЦЕНА</span>
+                  <a href="" class="product_price_find">по запросу</a>
+                  <span class="product_price"></span>
+                  <span class="product_sale"></span>
+                </div>
+                <div class="product_action_section">
+                  <a href="" class="product_busket busket_button">
+                    <img class="product_busket_icon busket_icon" src="" alt="Busket icon" />
+                    <span>В корзину</span>
+                  </a>
+
+                  <a href="" class="product_like_icon"></a>
+                  <a href="" class="product_compate_icon"></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="product_section">
+              <div class="product_icon_block">
+                <img src="" alt="Product image" />
+                <span class="product_sale_percent">-40%</span>
+              </div>
+
+              <div class="product_info_block">
+                <div class="product_reviews_section">
+                  <img src="product_star" alt="Product star image" />
+                  <span class="product_rating">4.5</span>
+                  <a href="" class="product_review_number">10 отзывов</a>
+                </div>
+                <span class="product_name">Комплект фрикционных дисков</span>
+              </div>
+
+              <div class="product_action_block">
+                <div class="procuct_price_section">
+                  <span class="product_price_caption">ЦЕНА</span>
+                  <a href="" class="product_price_find"></a>
+                  <span class="product_price">4 430₽</span>
+                  <span class="product_sale">5 430₽</span>
+                </div>
+                <div class="product_action_section">
+                  <a href="" class="product_busket busket_button">
+                    <img class="product_busket_icon busket_icon" src="" alt="Busket icon" />
+                    <span>В корзину</span>
+                  </a>
+
+                  <a href="" class="product_like_icon"></a>
+                  <a href="" class="product_compate_icon"></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="product_section">
+              <div class="product_icon_block">
+                <img src="" alt="Product image" />
+                <span class="product_sale_percent"></span>
+              </div>
+
+              <div class="product_info_block">
+                <div class="product_reviews_section">
+                  <img src="product_star" alt="Product star image" />
+                  <span class="product_rating">4.5</span>
+                  <a href="" class="product_review_number">10 отзывов</a>
+                </div>
+                <span class="product_name">Intermediate accumelator sleeve</span>
+              </div>
+
+              <div class="product_action_block">
+                <div class="procuct_price_section">
+                  <span class="product_price_caption">ЦЕНА</span>
+                  <a href="" class="product_price_find">по запросу</a>
+                  <span class="product_price"></span>
+                  <span class="product_sale"></span>
+                </div>
+                <div class="product_action_section">
+                  <a href="" class="product_busket busket_button">
+                    <img class="product_busket_icon busket_icon" src="" alt="Busket icon" />
+                    <span>В корзину</span>
+                  </a>
+
+                  <a href="" class="product_like_icon"></a>
+                  <a href="" class="product_compate_icon"></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="product_section">
+              <div class="product_icon_block">
+                <img src="" alt="Product image" />
+                <span class="product_sale_percent"></span>
+              </div>
+
+              <div class="product_info_block">
+                <div class="product_reviews_section">
+                  <img src="product_star" alt="Product star image" />
+                  <span class="product_rating">4.5</span>
+                  <a href="" class="product_review_number">10 отзывов</a>
+                </div>
+                <span class="product_name">IIntermediate accumelator sleeve</span>
+              </div>
+
+              <div class="product_action_block">
+                <div class="procuct_price_section">
+                  <span class="product_price_caption">ЦЕНА</span>
+                  <a href="" class="product_price_find">по запросу</a>
+                  <span class="product_price"></span>
+                  <span class="product_sale"></span>
+                </div>
+                <div class="product_action_section">
+                  <a href="" class="product_busket busket_button">
+                    <img class="product_busket_icon busket_icon" src="" alt="Busket icon" />
+                    <span>В корзину</span>
+                  </a>
+
+                  <a href="" class="product_like_icon"></a>
+                  <a href="" class="product_compate_icon"></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="product_section">
+              <div class="product_icon_block">
+                <img src="" alt="Product image" />
+                <span class="product_sale_percent"></span>
+              </div>
+
+              <div class="product_info_block">
+                <div class="product_reviews_section">
+                  <img src="product_star" alt="Product star image" />
+                  <span class="product_rating">4.5</span>
+                  <a href="" class="product_review_number">10 отзывов</a>
+                </div>
+                <span class="product_name">Intermediate accumelator sleeve</span>
+              </div>
+
+              <div class="product_action_block">
+                <div class="procuct_price_section">
+                  <span class="product_price_caption">ЦЕНА</span>
+                  <a href="" class="product_price_find">по запросу</a>
+                  <span class="product_price"></span>
+                  <span class="product_sale"></span>
+                </div>
+                <div class="product_action_section">
+                  <a href="" class="product_busket busket_button">
+                    <img class="product_busket_icon busket_icon" src="" alt="Busket icon" />
+                    <span>В корзину</span>
+                  </a>
+
+                  <a href="" class="product_like_icon"></a>
+                  <a href="" class="product_compate_icon"></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="product_section">
+              <div class="product_icon_block">
+                <img src="" alt="Product image" />
+                <span class="product_sale_percent">-40%</span>
+              </div>
+
+              <div class="product_info_block">
+                <div class="product_reviews_section">
+                  <img src="product_star" alt="Product star image" />
+                  <span class="product_rating">4.5</span>
+                  <a href="" class="product_review_number">10 отзывов</a>
+                </div>
+                <span class="product_name">Комплект фрикционных дисков</span>
+              </div>
+
+              <div class="product_action_block">
+                <div class="procuct_price_section">
+                  <span class="product_price_caption">ЦЕНА</span>
+                  <a href="" class="product_price_find"></a>
+                  <span class="product_price">4 430₽</span>
+                  <span class="product_sale">5 430₽</span>
+                </div>
+                <div class="product_action_section">
+                  <a href="" class="product_busket busket_button">
+                    <img class="product_busket_icon busket_icon" src="" alt="Busket icon" />
+                    <span>В корзину</span>
+                  </a>
+
+                  <a href="" class="product_like_icon"></a>
+                  <a href="" class="product_compate_icon"></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="product_section">
+              <div class="product_icon_block">
+                <img src="" alt="Product image" />
+                <span class="product_sale_percent"></span>
+              </div>
+
+              <div class="product_info_block">
+                <div class="product_reviews_section">
+                  <img src="product_star" alt="Product star image" />
+                  <span class="product_rating">4.5</span>
+                  <a href="" class="product_review_number">10 отзывов</a>
+                </div>
+                <span class="product_name">Intermediate accumelator sleeve</span>
+              </div>
+
+              <div class="product_action_block">
+                <div class="procuct_price_section">
+                  <span class="product_price_caption">ЦЕНА</span>
+                  <a href="" class="product_price_find">по запросу</a>
+                  <span class="product_price"></span>
+                  <span class="product_sale"></span>
+                </div>
+                <div class="product_action_section">
+                  <a href="" class="product_busket busket_button">
+                    <img class="product_busket_icon busket_icon" src="" alt="Busket icon" />
+                    <span>В корзину</span>
+                  </a>
+
+                  <a href="" class="product_like_icon"></a>
+                  <a href="" class="product_compate_icon"></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="product_section">
+              <div class="product_icon_block">
+                <img src="" alt="Product image" />
+                <span class="product_sale_percent"></span>
+              </div>
+
+              <div class="product_info_block">
+                <div class="product_reviews_section">
+                  <img src="product_star" alt="Product star image" />
+                  <span class="product_rating">4.5</span>
+                  <a href="" class="product_review_number">10 отзывов</a>
+                </div>
+                <span class="product_name">Intermediate accumelator sleeve</span>
+              </div>
+
+              <div class="product_action_block">
+                <div class="procuct_price_section">
+                  <span class="product_price_caption">ЦЕНА</span>
+                  <a href="" class="product_price_find">по запросу</a>
+                  <span class="product_price"></span>
+                  <span class="product_sale"></span>
+                </div>
+                <div class="product_action_section">
+                  <a href="" class="product_busket busket_button">
+                    <img class="product_busket_icon busket_icon" src="" alt="Busket icon" />
+                    <span>В корзину</span>
+                  </a>
+
+                  <a href="" class="product_like_icon"></a>
+                  <a href="" class="product_compate_icon"></a>
+                </div>
+              </div>
+            </div>
+
+            <button type="submit">Показать еще</button>
+          </div>
+        </div>
         <div class="news_wrapper">
           <div class="line"></div>
           <div class="news_block">
