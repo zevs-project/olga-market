@@ -1,1 +1,96 @@
 @import './src/styles/fonts.css';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+header,
+main,
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  background: #0f2438;
+  height: 36px;
+}
+
+.wrapper .content_wrapper {
+  width: 100%;
+  max-width: 1366px;
+  display: flex;
+}
+
+/* Header */
+header .content_wrapper {
+  justify-content: space-between;
+}
+
+.header_info_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 430px;
+}
+
+.header_info {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_info_title {
+  font: 500 14px Roboto;
+  line-height: 16px;
+  color: #ffffff;
+}
+
+.header_info_title .header_city {
+    text-decoration: underline;
+}
+
+.header_coords_icon {
+  height: 20px;
+  width: 20px;
+  margin-right: 8px;
+}
+
+.header_triangle {
+  background: url('./src/images/header/arrow-down.png') no-repeat;
+  background-size: contain;
+  height: 10.000000000000009px;
+  width: 10.000000000000009px;
+  margin-left: 5px;
+}
+
+.header_menu {
+  height: 100%;
+  width: 601px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_menu_page {
+  text-decoration: none;
+  font: 500 14px Roboto;
+  line-height: 16px;
+  color: #ffffff;
+}
+/* End header */
+
+/* Main */
+/* End main */
+
+/* Footer */
+/* End footer */
