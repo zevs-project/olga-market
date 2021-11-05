@@ -4,8 +4,7 @@
   margin: 0;
   padding: 0;
 }
-.wrapper {
-  display: flex;
+.wrapper main .content_wrapper {
   justify-content: center;
   flex-direction: column;
 }
@@ -16,6 +15,12 @@ footer {
   width: 100%;
   display: flex;
   justify-content: center;
+  font-family: Roboto;
+  color: #0a1a2c;
+}
+
+a {
+  text-decoration: none;
 }
 
 header {
@@ -56,7 +61,7 @@ header .content_wrapper {
 }
 
 .header_info_title .header_city {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .header_coords_icon {
@@ -82,7 +87,6 @@ header .content_wrapper {
 }
 
 .header_menu_page {
-  text-decoration: none;
   font: 500 14px Roboto;
   line-height: 16px;
   color: #ffffff;
@@ -90,7 +94,196 @@ header .content_wrapper {
 /* End header */
 
 /* Main */
+
+.contact_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact_wrapper .contact_block {
+  display: flex;
+  justify-content: space-between;
+  color: #0f2438;
+}
+
+.contact_wrapper .logo_block,
+.contact_wrapper .work_time_block,
+.contact_wrapper .write_us_block,
+.contact_wrapper .catalog_button,
+.contact_wrapper .search_form,
+.contact_wrapper .customer_info_wrapper,
+.contact_wrapper .work_address {
+  display: flex;
+  align-items: center;
+}
+
+.contact_wrapper .logo_block img {
+  height: 71px;
+  width: 66px;
+}
+
+.contact_wrapper .logo_block .logo_caption {
+  font: 24px Roboto;
+  line-height: 0.7;
+  width: 170px;
+}
+
+.contact_wrapper .logo_block .logo_caption span {
+  font: 500 12px/14.06px Roboto;
+}
+
+.contact_wrapper .work_time_block {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.contact_wrapper .work_time_block .time_icon {
+  height: 32px;
+  width: 32px;
+}
+
+.contact_wrapper .work_time_block .work_time {
+  font: 500 14px Roboto;
+  line-height: 20px;
+  text-align: right;
+  width: 230px;
+  margin-top: 5px;
+}
+
+.contact_wrapper .work_address {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.contact_wrapper .work_address .work_icon {
+  height: 32px;
+  width: 32px;
+  margin-right: 14.7px;
+}
+
+.contact_wrapper .work_address span {
+  font: 500 14px Roboto;
+  line-height: 16px;
+}
+
+.content_wrapper .write_us_block {
+  width: 204px;
+  height: 30px;
+  background: #e1efd0;
+  border-radius: 2px;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+}
+
+.content_wrapper .write_us_block img {
+  width: 12px;
+  height: 12px;
+  margin-right: 6px;
+}
+
+.content_wrapper .write_us_block span {
+  font: 12px Rubik;
+  line-height: 14px;
+  color: #000000;
+}
+
+.contact_wrapper .phone_block {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  align-self: center;
+}
+
+.contact_wrapper .phone_block a {
+  color: #0f2438;
+}
+
+.contact_wrapper .phone_block .phone {
+  font: 500 20px Roboto;
+  line-height: 23px;
+}
+
+.contact_block .catalog_button {
+  width: 164px;
+  height: 53px;
+  background: #005bb9;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact_block .catalog_button .burger_wrapper {
+  width: 20px;
+  height: 13px;
+  display: flex;
+  align-content: space-between;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 12px;
+}
+
+.contact_block .burger_wrapper .burger_line {
+  width: 20px;
+  height: 3px;
+  background: #ffffff;
+}
+
+.contact_block .burger_caption {
+  font: 700 18px Roboto;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.contact_block .search_form {
+  height: 53px;
+  display: flex;
+}
+
+.contact_block .search_form .search {
+  width: 549px;
+  height: 100%;
+  background: #f4f5fa;
+  border-radius: 6px 0px 0px 6px;
+  border: none;
+}
+
+.contact_block .search_form .search:focus {
+  outline: none;
+}
+
+.contact_block .search_form .search::placeholder {
+  padding-left: 19px;
+  font-size: 14px;
+  line-height: 16px;
+  color: #c2c5da;
+}
+
+.contact_block .search_form .search_button {
+  width: 101px;
+  height: 100%;
+  background: #005bb9;
+  border-radius: 0px 6px 6px 0px;
+  border: none;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+}
+
+.contact_block .login_block {
+  display: flex;
+  align-items: center;
+}
+
+.contact_block .login_block .login_icon {
+  height: 28px;
+  width: 28px;
+}
+
 /* End main */
 
 /* Footer */
+
 /* End footer */
